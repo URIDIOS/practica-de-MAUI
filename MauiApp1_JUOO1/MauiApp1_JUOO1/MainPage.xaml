@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1_JUOO1.MainPage"
+             BackgroundColor="#181818">
+             
+    <VerticalStackLayout 
+        VerticalOptions="Center"
+        Spacing="25"
+        Margin="10,0,10,0">
+        
+            <Label 
+                Text="IMC Calculadora" 
+                TextColor="#CCCCCC" 
+                HorizontalTextAlignment="Center" 
+                FontSize="30"
+                FontAttributes="Bold"/>
+        
+            <Entry
+                x:Name="Kilos"
+                BackgroundColor="#2A2A2A"
+                Placeholder="Kilogramos"
+                PlaceholderColor="#7b7c7c"
+                TextColor="#CCCCCC"/>
+
+            <Entry 
+                x:Name="Altura"
+                BackgroundColor="#2A2A2A"
+                Placeholder="Altura"
+                PlaceholderColor="#7b7c7c"
+                TextColor="#CCCCCC"/>
+
+            <Entry 
+                x:Name="IMC"
+                BackgroundColor="#2A2A2A"
+                Placeholder="IMC"
+                PlaceholderColor="#7b7c7c"
+                TextColor="#CCCCCC"/>
+
+            <Button 
+                Text="Calcular" 
+                BackgroundColor="#0078D4"
+                TextColor="White"
+                Clicked="Button_Clicked"/> 
+        
+    </VerticalStackLayout>
+
+</ContentPage>
